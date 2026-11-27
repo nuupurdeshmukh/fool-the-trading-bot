@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lobsim"
+version = "0.1.0"
+description = "A small limit order book simulator for the WiDS 'Fool the Trading Bot' project"
+requires-python = ">=3.10"
+dependencies = ["numpy", "pandas", "matplotlib"]
+
+[tool.setuptools]
+packages = ["lobsim"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

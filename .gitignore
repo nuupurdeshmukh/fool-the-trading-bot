@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+*.egg-info/
+build/
+.pytest_cache/
+
+# datasets are large: download them, do not commit them
+data/*
+!data/README.md
+
+# private mentor notes and learning material
+mentors/
