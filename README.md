@@ -95,4 +95,4 @@ market = simulate(steps=1000, extra_agents=[AlwaysBuy("my_bot")])
 
 ## Mentors
 
-Mentors: Nuupur Deshmukh and Samyajyoti Biswas · Questions: open a GitHub issue or ask on the WiDS group.
+Mentors: Nuupur Deshmukh and Samyajyoti Biswas · for doubts: ask on the WiDS group
